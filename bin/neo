@@ -1,4 +1,9 @@
 #!/usr/bin/env php
 <?php
 
+use Neo\Console\Console;
+
 require_once __DIR__ . '/../vendor/autoload.php';
+
+$console = new Console();
+$console->run();
